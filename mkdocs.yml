@@ -1,6 +1,10 @@
 site_name: tuna2134 document site
 site_url: https://docs.tuna2134.dev
+site_author: tuna2134
+site_description: My document site
+copyright: Copyright tuna2134 2023
 
+repo_url: https://github.com/tuna2134/docs
 
 theme:
   name: material
