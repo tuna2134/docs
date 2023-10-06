@@ -9,11 +9,11 @@ chromiumを使ってサイトのスクリーンショットを撮ってくれま
 
 **Parameters**
 
-| name   | type | description       |
-| :--:   | :--: | :--:              |
-| url    | str  | Target URL.       |
-| weight | int  | Return image size |
-| height | int  | Return image size |
+| name   | type  | description       |
+| :--:   | :--:  | :--:              |
+| url    | str   | Target URL.       |
+| weight | int?  | Return image size |
+| height | int?  | Return image size |
 
 **Returns**
 
