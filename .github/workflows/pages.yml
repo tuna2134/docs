@@ -16,9 +16,9 @@ jobs:
     - name: Install library
       run: |
         pip install poetry
-        poetry export -f requirements.txt -o requirements.txt
-        pip install -r requirements.txt
-    - run: mkdocs build
+        poetry install
+    - name: Build document page
+      run: poetry run mkdocs build
     - uses: actions/upload-pages-artifact@v1
       with:
         path: site
