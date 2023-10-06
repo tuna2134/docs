@@ -16,7 +16,7 @@ jobs:
     - name: Install library
       run: |
         pip install poetry
-        poetry install
+        poetry install --no-ansi
     - name: Build document page
       run: poetry run mkdocs build
     - uses: actions/upload-pages-artifact@v1
