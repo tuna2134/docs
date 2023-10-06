@@ -1,4 +1,6 @@
 site_name: tuna2134 document site
+site_url: https://docs.tuna2134.dev
+
 
 theme:
   name: material
