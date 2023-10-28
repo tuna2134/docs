@@ -13,10 +13,12 @@ pip install ./pymark
 
 ## Functions
 
-## `convert(markdown: str) -> str:`
+### `convert(markdown: str) -> str:`
 
 **Argument**
+
 - `markdown(str)` - マークダウンの内容
 
 **Returns**
+
 - `str` - マークダウンからhtmlに変換した内容
