@@ -9,7 +9,7 @@
 ## サービスファイルを変更
 `/usr/lib/systemd/system/code-server@.service`を以下の通りに変更してください。
 
-```service:code-server@.service
+```service
 [Unit]
 Description=code-server
 After=network.target
