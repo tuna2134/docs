@@ -7,6 +7,8 @@
 (省略)
 
 ## サービスファイルを変更
+`/usr/lib/systemd/system/code-server@.service`を以下の通りに変更してください。
+
 ```service:code-server@.service
 [Unit]
 Description=code-server
@@ -21,3 +23,10 @@ User=%i
 [Install]
 WantedBy=default.target
 ```
+
+## サービスを再起動
+```
+sudo systemctl restart code-server@$USER
+```
+
+これでできました！
