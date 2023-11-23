@@ -9,3 +9,12 @@ repo_url: https://github.com/tuna2134/docs
 theme:
   name: material
   language: ja
+
+markdown_extensions:
+- pymdownx.highlight:
+  anchor_linenums: true
+  line_spans: __span
+  pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
