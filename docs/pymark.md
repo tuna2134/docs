@@ -12,13 +12,13 @@ pip install ./pymark
 以上の方法が最も成功かつ簡単なインストール方法です。(cmake, gcc必須)
 
 ## Examples
-```py
+```python
 import pymark
 
 
 md_text = """
 # Hello, World
-hi
+hello, someone
 """
 
 print(pymark.convert(md_text))
