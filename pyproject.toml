@@ -5,11 +5,12 @@ description = ""
 authors = ["tuna2134 <me@tuna2134.dev>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
 mkdocs = "^1.6.0"
-mkdocs-material = "^9.5.18"
+mkdocs-material = "^9.5.19"
 pygments = "^2.17.2"
 
 
