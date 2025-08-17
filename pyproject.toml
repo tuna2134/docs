@@ -1,19 +1,11 @@
-[tool.poetry]
-name = "tuna2134-docs"
+[project]
+name = "docs"
 version = "0.1.0"
-description = ""
-authors = ["tuna2134 <me@tuna2134.dev>"]
-license = "MIT"
+description = "Add your description here"
 readme = "README.md"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.11"
-mkdocs = "^1.6.0"
-mkdocs-material = "^9.5.19"
-pygments = "^2.17.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.17",
+    "pygments>=2.19.2",
+]
